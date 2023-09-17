@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from "react";
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import React, { useState } from "react";
 import axios from "axios";
 
 import { TailSpin } from "react-loader-spinner";
@@ -9,6 +11,7 @@ interface TaskResult {
 }
 
 interface Summary {
+  result: any;
   data: any;
   checks: any;
 
