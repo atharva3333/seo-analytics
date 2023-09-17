@@ -55,6 +55,8 @@ const MyDataForSEOComponent: React.FC = () => {
     ];
 
     // Clear previous results and set loading to true
+    console.log(results,taskID);
+    
     setResults([]);
     setSummary([]);
     setIsLoading(true);
